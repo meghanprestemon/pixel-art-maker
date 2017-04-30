@@ -1,0 +1,169 @@
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #0F414F;
+  border-radius: 1%;
+  padding: 20px 35px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: auto;
+  background-color: white;
+}
+
+td {
+  height: 7px;
+  width: 7px;
+  border: .5px solid black;
+  cursor: crosshair;
+}
+
+.color-options {
+  width: 100%;
+  margin: 5px auto;
+  padding: 5px 0px;
+  background-color: rgba(68, 118, 132, .5);
+}
+
+#palette {
+  width: 78%;
+  margin: 10px auto;
+}
+
+.palette-color {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  border: .2px solid black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#pink {
+  background-color: pink;
+}
+
+#red {
+  background-color: red;
+}
+
+#dark-red {
+  background-color: DarkRed;
+}
+
+#burnt-orange {
+  background-color: chocolate;
+}
+
+#orange {
+  background-color: DarkOrange;
+}
+
+#yellow {
+  background-color: gold;
+}
+
+#khaki {
+  background-color: khaki;
+}
+
+#olive-green {
+  background-color: olive;
+}
+
+#green {
+  background-color: green;
+}
+
+#sea-green {
+  background-color: DarkSeaGreen;
+}
+
+#teal {
+  background-color: teal;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#navy {
+  background-color: navy;
+}
+
+#light-blue {
+  background-color: CornflowerBlue;
+}
+
+#blue-violet {
+  background-color: MediumSlateBlue;
+}
+
+#purple {
+  background-color: DarkViolet;
+}
+
+#indigo {
+  background-color: indigo;
+}
+
+#black {
+  background-color: black;
+}
+
+#dark-grey {
+  background-color: DimGrey;
+}
+
+#mid-grey {
+  background-color: grey;
+}
+
+#light-grey {
+  background-color: silver;
+}
+
+#white {
+  background-color: white;
+}
+
+#brown {
+  background-color: SaddleBrown;
+}
+
+#tan {
+  background-color: tan;
+}
+
+.current-color, .input-color {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.current-color-text, .input-title {
+  display: inline-block;
+  margin-left: 10px;
+  height: 25px;
+  line-height: 25px;
+  vertical-align: middle;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.current-color-display, #color-picker {
+  display: inline-block;
+  height: 25px;
+  width: 50px;
+  border: .2px solid black;
+  border-radius: 5%;
+  vertical-align: middle;
+  background-color: white;
+}
+
+.input-color {
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
